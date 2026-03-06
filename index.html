@@ -8,18 +8,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="listings.css">
 </head>
-<body>
-  <main>
-    <h1>Chanu Arcade</h1>
-    <p class="tagline">Welcome to the arcade.</p>
-    <p class="sub">Static site · chanuarcade.site</p>
-    <p style="margin-top: 1.5rem;">
-      <a href="listings.html" class="cta-link">View rental listings</a>
-    </p>
+<body class="home-page">
+  <main class="home-main">
+    <section class="hero">
+      <h1>Chanu Arcade</h1>
+      <p class="tagline">Welcome to the arcade.</p>
+    </section>
+    <section class="listings-section">
+      <h2 class="listings-heading">Rental Listings</h2>
+      <div id="listings-grid" class="listings-grid"></div>
+    </section>
   </main>
   <footer>
     <p>chanuarcade.site</p>
   </footer>
+  <script src="listings.js"></script>
 </body>
 </html>
