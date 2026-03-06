@@ -149,13 +149,27 @@
 }
 
 .listing-card-map a {
-  color: var(--accent);
+  color: #3b82f6;
   text-decoration: none;
   font-weight: 500;
 }
 
 .listing-card-map a:hover {
+  color: #60a5fa;
   text-decoration: underline;
+}
+
+.listing-card-landmarks {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.listing-card-landmarks::before {
+  content: "📍 Landmarks: ";
+  font-weight: 600;
+  color: var(--text);
 }
 
 .listing-card-contact {
@@ -204,12 +218,13 @@
 
 .listing-card-media a {
   font-size: 0.8125rem;
-  color: var(--accent);
+  color: #3b82f6;
   text-decoration: none;
   font-weight: 500;
 }
 
 .listing-card-media a:hover {
+  color: #60a5fa;
   text-decoration: underline;
 }
 
@@ -220,12 +235,13 @@
 }
 
 .listing-card-facility {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  background: rgba(249, 115, 22, 0.15);
-  color: var(--accent);
+  font-size: 0.8125rem;
+  padding: 0.35rem 0.6rem;
+  background: rgba(249, 115, 22, 0.2);
+  color: var(--text);
   border-radius: 6px;
-  font-weight: 500;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
 }
 
 .listings-loading,

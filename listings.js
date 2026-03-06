@@ -38,6 +38,9 @@
     var mapLinkHtml = mapUrl
       ? '<div class="listing-card-map"><a href="' + escapeHtml(mapUrl) + '" target="_blank" rel="noopener noreferrer">View on map</a></div>'
       : '';
+    var landmarksHtml = (item.landmarks && item.landmarks.trim())
+      ? '<div class="listing-card-landmarks">' + escapeHtml(item.landmarks.trim()) + '</div>'
+      : '';
     card.innerHTML =
       '<img class="listing-card-image" src="' +
       escapeHtml(item.image) +
@@ -55,6 +58,7 @@
       '</span></div>' +
       locationHtml +
       mapLinkHtml +
+      landmarksHtml +
       contactHtml +
       metaHtml +
       extraHtml +
