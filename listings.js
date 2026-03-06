@@ -13,8 +13,12 @@
     var metaParts = [];
     if (item.area) metaParts.push(escapeHtml(item.area));
     if (item.facing) metaParts.push(escapeHtml(item.facing) + ' facing');
-    if (item.occupancy) metaParts.push('Occupancy: ' + escapeHtml(item.occupancy));
+    var hasOccupancyButtons = item.occupancy && item.occupancy.trim();
+    if (item.occupancy && !hasOccupancyButtons) metaParts.push('Occupancy: ' + escapeHtml(item.occupancy));
     var metaHtml = metaParts.length ? '<div class="listing-card-meta">' + metaParts.join(' · ') + '</div>' : '';
+    var occupancyButtonsHtml = hasOccupancyButtons
+      ? '<div class="listing-card-occupancy"><span class="listing-card-occupancy-label">Occupancy:</span> <div class="listing-card-occupancy-buttons"><button type="button" class="listing-card-occupancy-btn">Single</button><button type="button" class="listing-card-occupancy-btn">Double</button><button type="button" class="listing-card-occupancy-btn">Triple</button></div></div>'
+      : '';
     var extraParts = [];
     if (item.maintenance) extraParts.push('Maintenance: ' + escapeHtml(item.maintenance));
     if (item.securityDeposit) extraParts.push('Deposit: ' + escapeHtml(item.securityDeposit));
@@ -60,6 +64,7 @@
       mapLinkHtml +
       landmarksHtml +
       contactHtml +
+      occupancyButtonsHtml +
       metaHtml +
       extraHtml +
       descHtml +
