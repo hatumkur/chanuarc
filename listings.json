@@ -13,6 +13,7 @@
     "description": "Single sharing, Twin sharing, Women only, on 60 feet road, near to KLE law college",
     "image": "chanuarcade.webp",
     "mediaUrl": "",
+    "photos": "chanuarcade.webp, rooms1.jpg, rooms2.jpg, rooms3.jpg, rooms4.jpg, rooms5.jpg, rooms6.jpg",
     "facilities": ["1 Room","Attached Bathroom", "No food", "Common Kitchen with Stove", "Common Living Room", "Common Dinning Space", "CCTV", "Security", "Power Backup", "Lift Fingerprint Protected",  "Cleaning Servant", "Common Refrigerator", "Common Washing Machine", "Common Drying Area", "24/7 hot water", "Cot", "Curtains"]
   },  
   {
@@ -30,6 +31,7 @@
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
     "mediaUrl": "",
+    "photos": "chanuarcade.webp, lift.jpg",
     "facilities": ["Granite Flooring", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -47,6 +49,7 @@
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
     "mediaUrl": "",
+    "photos": "chanuarcade.webp, lift.jpg",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -64,6 +67,7 @@
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
     "mediaUrl": "",
+    "photos": "chanuarcade.webp, lift.jpg",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet", "Elevator/Lift"]
   }
 ]
