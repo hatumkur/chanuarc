@@ -131,6 +131,26 @@
   font-size: 0.875rem;
 }
 
+.listing-card-contact {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+.listing-card-contact a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.listing-card-contact a:hover {
+  text-decoration: underline;
+}
+
+.listing-card-contact::before {
+  content: "📞 ";
+  font-size: 0.875rem;
+}
+
 .listing-card-meta,
 .listing-card-extra {
   font-size: 0.8125rem;

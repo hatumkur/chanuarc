@@ -23,6 +23,10 @@
     var extraHtml = extraParts.length ? '<div class="listing-card-extra">' + extraParts.join(' · ') + '</div>' : '';
     var desc = item.description ? escapeHtml(item.description) : '';
     var descHtml = desc ? '<p class="listing-card-description">' + desc + '</p>' : '';
+    var firstNumber = item.contact ? item.contact.split(/\s*\/\s*/)[0].replace(/\D/g, '') : '';
+    var contactHtml = item.contact
+      ? '<div class="listing-card-contact"><a href="tel:' + escapeHtml(firstNumber) + '">' + escapeHtml(item.contact) + '</a></div>'
+      : '';
     card.innerHTML =
       '<img class="listing-card-image" src="' +
       escapeHtml(item.image) +
@@ -41,6 +45,7 @@
       '<div class="listing-card-location">' +
       escapeHtml(item.location || '') +
       '</div>' +
+      contactHtml +
       metaHtml +
       extraHtml +
       descHtml +
