@@ -29,6 +29,15 @@
       : '';
     var galleryUrl = 'gallery.html?id=' + encodeURIComponent(item.id || '');
     var mediaHtml = '<div class="listing-card-media"><a href="' + escapeHtml(galleryUrl) + '">Photos / Videos</a></div>';
+    var mapUrl = item.map && item.map.trim() ? item.map.trim() : '';
+    var locationHtml = '<div class="listing-card-location">' +
+      (mapUrl
+        ? '<a href="' + escapeHtml(mapUrl) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.location || 'View on map') + '</a>'
+        : escapeHtml(item.location || '')) +
+      '</div>';
+    var mapLinkHtml = mapUrl
+      ? '<div class="listing-card-map"><a href="' + escapeHtml(mapUrl) + '" target="_blank" rel="noopener noreferrer">View on map</a></div>'
+      : '';
     card.innerHTML =
       '<img class="listing-card-image" src="' +
       escapeHtml(item.image) +
@@ -44,11 +53,8 @@
       '<span class="listing-card-price-period">' +
       escapeHtml(item.pricePeriod || '') +
       '</span></div>' +
-      '<div class="listing-card-location">' +
-      (item.map && item.map.trim()
-        ? '<a href="' + escapeHtml(item.map.trim()) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.location || 'View on map') + '</a>'
-        : escapeHtml(item.location || '')) +
-      '</div>' +
+      locationHtml +
+      mapLinkHtml +
       contactHtml +
       metaHtml +
       extraHtml +

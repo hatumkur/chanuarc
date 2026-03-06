@@ -143,6 +143,21 @@
   text-decoration: underline;
 }
 
+.listing-card-map {
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.listing-card-map a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.listing-card-map a:hover {
+  text-decoration: underline;
+}
+
 .listing-card-contact {
   font-size: 0.9375rem;
   margin-bottom: 0.5rem;
