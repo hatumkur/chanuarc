@@ -45,7 +45,9 @@
       escapeHtml(item.pricePeriod || '') +
       '</span></div>' +
       '<div class="listing-card-location">' +
-      escapeHtml(item.location || '') +
+      (item.map && item.map.trim()
+        ? '<a href="' + escapeHtml(item.map.trim()) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.location || 'View on map') + '</a>'
+        : escapeHtml(item.location || '')) +
       '</div>' +
       contactHtml +
       metaHtml +
