@@ -1,0 +1,61 @@
+[
+  {
+    "id": "1",
+    "title": "Furnished Room for rent for Women",
+    "price": "₹6500 / ₹8500 / ₹9500",
+    "maintenance": "₹500",
+    "occupancy": "1 to 2",
+    "securityDeposit": "3 months",
+    "noticePeriod": "1 month",
+    "pricePeriod": "/month",
+    "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
+    "description": "Single sharing, Twin sharing, Women only, on 60 feet road, near to KLE law college",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&h=400&fit=crop",
+    "facilities": ["1 Room","Attached Bathroom", "No food", "Common Kitchen with Stove", "Common Living Room", "Common Dinning Space", "CCTV", "Security", "Power Backup", "Lift Fingerprint Protected",  "Cleaning Servant", "Common Refrigerator", "Common Washing Machine", "Common Drying Area", "24/7 hot water", "Cot", "Curtains"]
+  },  
+  {
+    "id": "2",
+    "title": "Commercial Space for rent - Basement",
+    "facing": "North",
+    "area": "900 sq.ft.",
+    "price": "₹35000",
+    "electricity": "Actual",
+    "maintenance": "₹1500",
+    "securityDeposit": "10 months",
+    "noticePeriod": "3 month",
+    "pricePeriod": "/month",
+    "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "facilities": ["Granite Flooring", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
+  },
+  {
+    "id": "3",
+    "title": "Commercial Space for rent - Ground Floor",
+    "area": "800 sq.ft.",
+    "facing": "North",
+    "price": "₹45000",
+    "electricity": "Actual",
+    "maintenance": "₹1500",
+    "securityDeposit": "10 months",
+    "noticePeriod": "3 month",
+    "pricePeriod": "/month",
+    "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
+  },
+  {
+    "id": "4",
+    "title": "Commercial Space for rent - 1st Floor",
+    "area": "900 sq.ft.",
+    "facing": "North",
+    "price": "₹35000",
+    "electricity": "Actual",
+    "maintenance": "₹2000",
+    "securityDeposit": "10 months",
+    "noticePeriod": "3 month",
+    "pricePeriod": "/month",
+    "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet", "Elevator/Lift"]
+  }
+]
