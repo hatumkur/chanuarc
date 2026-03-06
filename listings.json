@@ -12,6 +12,7 @@
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "description": "Single sharing, Twin sharing, Women only, on 60 feet road, near to KLE law college",
     "image": "chanuarcade.webp",
+    "mediaUrl": "",
     "facilities": ["1 Room","Attached Bathroom", "No food", "Common Kitchen with Stove", "Common Living Room", "Common Dinning Space", "CCTV", "Security", "Power Backup", "Lift Fingerprint Protected",  "Cleaning Servant", "Common Refrigerator", "Common Washing Machine", "Common Drying Area", "24/7 hot water", "Cot", "Curtains"]
   },  
   {
@@ -20,7 +21,7 @@
     "contact": "9008397778 / 9591600710",
     "facing": "North",
     "area": "900 sq.ft.",
-    "price": "₹35000",
+    "price": "₹35000 ",
     "electricity": "Actual",
     "maintenance": "₹1500",
     "securityDeposit": "10 months",
@@ -28,6 +29,7 @@
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
+    "mediaUrl": "",
     "facilities": ["Granite Flooring", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -36,7 +38,7 @@
     "contact": "9008397778 / 9591600710",
     "area": "800 sq.ft.",
     "facing": "North",
-    "price": "₹45000",
+    "price": "₹45000 ",
     "electricity": "Actual",
     "maintenance": "₹1500",
     "securityDeposit": "10 months",
@@ -44,6 +46,7 @@
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
+    "mediaUrl": "",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -52,7 +55,7 @@
     "contact": "9008397778 / 9591600710",
     "area": "900 sq.ft.",
     "facing": "North",
-    "price": "₹35000",
+    "price": "₹35000 ",
     "electricity": "Actual",
     "maintenance": "₹2000",
     "securityDeposit": "10 months",
@@ -60,6 +63,7 @@
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "image": "chanuarcade.webp",
+    "mediaUrl": "",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet", "Elevator/Lift"]
   }
 ]

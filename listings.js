@@ -27,6 +27,8 @@
     var contactHtml = item.contact
       ? '<div class="listing-card-contact"><a href="tel:' + escapeHtml(firstNumber) + '">' + escapeHtml(item.contact) + '</a></div>'
       : '';
+    var mediaUrl = (item.mediaUrl && item.mediaUrl.trim()) ? item.mediaUrl.trim() : '#';
+    var mediaHtml = '<div class="listing-card-media"><a href="' + escapeHtml(mediaUrl) + '" target="_blank" rel="noopener noreferrer">Photos / Videos</a></div>';
     card.innerHTML =
       '<img class="listing-card-image" src="' +
       escapeHtml(item.image) +
@@ -52,6 +54,7 @@
       '<div class="listing-card-facilities">' +
       facilitiesHtml +
       '</div>' +
+      mediaHtml +
       '</div>';
     return card;
   }

@@ -169,6 +169,23 @@
   overflow: hidden;
 }
 
+.listing-card-media {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.listing-card-media a {
+  font-size: 0.8125rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.listing-card-media a:hover {
+  text-decoration: underline;
+}
+
 .listing-card-facilities {
   display: flex;
   flex-wrap: wrap;
