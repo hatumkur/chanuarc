@@ -11,7 +11,7 @@
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
     "description": "Single sharing, Twin sharing, Women only, on 60 feet road, near to KLE law college",
-    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&h=400&fit=crop",
+    "image": "chanuarcade.webp",
     "facilities": ["1 Room","Attached Bathroom", "No food", "Common Kitchen with Stove", "Common Living Room", "Common Dinning Space", "CCTV", "Security", "Power Backup", "Lift Fingerprint Protected",  "Cleaning Servant", "Common Refrigerator", "Common Washing Machine", "Common Drying Area", "24/7 hot water", "Cot", "Curtains"]
   },  
   {
@@ -27,7 +27,7 @@
     "noticePeriod": "3 month",
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
-    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "image": "chanuarcade.webp",
     "facilities": ["Granite Flooring", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -43,7 +43,7 @@
     "noticePeriod": "3 month",
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
-    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "image": "chanuarcade.webp",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet"]
   },
   {
@@ -59,7 +59,7 @@
     "noticePeriod": "3 month",
     "pricePeriod": "/month",
     "location": "Sir M Vishveshwaraiaha layout 5th Block, Bangalore",
-    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
+    "image": "chanuarcade.webp",
     "facilities": ["Granite Floor", "Ceiling lights", "Common Area Cleaning", "Common Toilet", "Elevator/Lift"]
   }
 ]
